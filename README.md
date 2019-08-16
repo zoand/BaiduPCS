@@ -10,7 +10,7 @@ C/C++写的一个百度网盘工具，可以在linux终端中使用。
 查看 [初级使用教程]
 
 此项目已停止维护：
-https://github.com/zoand/BaiduPCS/issues/299
+https://github.com/GangZhuo/BaiduPCS/issues/299
 ==================================
 
 打包安装 (Debian)：
