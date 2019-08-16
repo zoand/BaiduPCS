@@ -10,7 +10,7 @@ C/C++写的一个百度网盘工具，可以在linux终端中使用。
 查看 [初级使用教程]
 
 此项目已停止维护：
-https://github.com/GangZhuo/BaiduPCS/issues/299
+https://github.com/zoand/BaiduPCS/issues/299
 ==================================
 
 打包安装 (Debian)：
@@ -20,7 +20,7 @@ https://github.com/GangZhuo/BaiduPCS/issues/299
     apt update
     apt install build-essential dh-autoreconf dpkg-dev libssl-dev libcurl4-openssl-dev
 ### 2. 获取源代码
-    git clone https://github.com/GangZhuo/BaiduPCS.git
+    git clone https://github.com/zoand/BaiduPCS.git
 ### 3. 构建打包
     cd BaiduPCS
     dpkg-buildpackage -us -uc -i -b
@@ -35,7 +35,7 @@ https://github.com/GangZhuo/BaiduPCS/issues/299
 ### 1. 安装依赖
     apt-get install build-essential libcurl4-openssl-dev libssl-dev
 ### 2. 获取源代码
-    git clone https://github.com/GangZhuo/BaiduPCS.git
+    git clone https://github.com/zoand/BaiduPCS.git
 ### 3. 编译源代码
     cd BaiduPCS
     ./configure && make
@@ -50,7 +50,7 @@ https://github.com/GangZhuo/BaiduPCS/issues/299
 ### 1. 安装依赖
     apt-get install build-essential libcurl4-openssl-dev libssl-dev
 ### 2. 获取源代码
-    git clone https://github.com/GangZhuo/BaiduPCS.git
+    git clone https://github.com/zoand/BaiduPCS.git
 ### 3. 编译源代码
     cd BaiduPCS
     make clean -f Makefile.old
@@ -62,9 +62,9 @@ https://github.com/GangZhuo/BaiduPCS/issues/299
 编译 (Windows)：
 ===================================
 ### 1. 获取源代码
-    git clone https://github.com/GangZhuo/BaiduPCS.git
+    git clone https://github.com/zoand/BaiduPCS.git
 ### 2. 安装依赖
-    到 https://github.com/GangZhuo/BaiduPCS/releases/tag/0.2.6 下载需要的依赖包 [deps-win32.zip] 。
+    到 https://github.com/zoand/BaiduPCS/releases/tag/0.2.6 下载需要的依赖包 [deps-win32.zip] 。
     
     下载后，把压缩包解压到 deps 目录。
     
@@ -94,7 +94,7 @@ https://github.com/GangZhuo/BaiduPCS/issues/299
 编译 (Mac)：
 ===================================
 ### 1. 获取源代码
-    git clone https://github.com/GangZhuo/BaiduPCS.git
+    git clone https://github.com/zoand/BaiduPCS.git
 ### 2. 安装依赖
 	brew install openssl
 ### 3. 编译源代码
@@ -113,7 +113,7 @@ https://github.com/GangZhuo/BaiduPCS/issues/299
 ===================================
 ### 进入 [Openwrt SDK] 目录，然后执行如下命令：
         pushd package
-        git clone https://github.com/GangZhuo/BaiduPCS.git
+        git clone https://github.com/zoand/BaiduPCS.git
         popd
         make menuconfig # select Utilities/BaiduPCS
         make V=99 package/BaiduPCS/openwrt/compile
@@ -492,10 +492,10 @@ https://github.com/GangZhuo/BaiduPCS/issues/299
 [Appveyor]: https://ci.appveyor.com/project/GangZhuo/baidupcs/branch/master
 [Build Status]: https://ci.appveyor.com/api/projects/status/etib00a5ta70cpfr?svg=true
 [baidupcs-dependencies.zip]: https://sourceforge.net/projects/baidupcs/files/Dependencies/
-[适用Windows的预编译版本]:   https://github.com/GangZhuo/BaiduPCS/releases
-[BaiduCloudDisk for .Net 4.0]: https://github.com/GangZhuo/BaiduPCS_NET/releases
+[适用Windows的预编译版本]:   https://github.com/zoand/BaiduPCS/releases
+[BaiduCloudDisk for .Net 4.0]: https://github.com/zoand/BaiduPCS_NET/releases
 [Openwrt SDK]:               http://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
 [预编译 ipk for Openwrt]:    http://sourceforge.net/projects/baidupcs/files/Openwrt/
-[初级使用教程]:    https://github.com/GangZhuo/BaiduPCS/wiki/BaiduPCS-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8
+[初级使用教程]:    https://github.com/zoand/BaiduPCS/wiki/BaiduPCS-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8
 [windows.php.net]:    http://windows.php.net/downloads/php-sdk/deps/vc14/x86/
-[deps-win32.zip]:   https://github.com/GangZhuo/BaiduPCS/releases/download/0.2.6/deps-win32.zip
+[deps-win32.zip]:   https://github.com/zoand/BaiduPCS/releases/download/0.2.6/deps-win32.zip
